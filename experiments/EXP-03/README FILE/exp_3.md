@@ -1,3 +1,44 @@
+# Custom FFT Image Processing
+
+## Problem Statement
+
+### Q1. Fast Fourier Transform (FFT) and Inverse FFT
+
+Write Python modular functions to compute the Fast Fourier Transform (FFT) and Inverse FFT of an image with any random spatial dimension.
+
+**Input**: An image.
+
+**Output**: Visualization of the magnitude and phase spectrum of the image.
+
+### Q2. Operations on `dip.tiff` Image
+
+Read the image `dip.tiff` and perform the following operations:
+
+1. Multiply the image by \( (-1)^{x+y} \).
+2. Compute the FFT of the modified image.
+3. Compute the complex conjugate of the resultant FFT.
+4. Compute the inverse FFT (iFFT) of the complex conjugate obtained in step 3.
+5. Multiply the real part of the result by \( (-1)^{x+y} \).
+
+Use the FFT and Inverse FFT functions you developed in Q1 for this experiment.
+
+**Output**: Show the resultant image. Explain the rationale behind the output.
+
+## Script Overview
+
+This Python script demonstrates a custom implementation of the Fast Fourier Transform (FFT) and Inverse FFT for 2D image processing. It performs the following tasks:
+
+- Computes and displays the magnitude and phase spectrum of an image.
+- Applies a series of transformations on the image `dip.tiff` and visualizes the result.
+
+## Requirements
+
+- Python 3.x
+- `numpy`
+- `matplotlib`
+- `scipy` (for image processing functions)
+
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt

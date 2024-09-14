@@ -1,3 +1,25 @@
+# BMP Image Processing
+
+## Problem Statement
+
+### Q1. Read BMP Image
+
+- **Input**: Filename of the input image.
+- **Output**: BMP header structure printing height, width, bit depth, file size in bytes, and offset size. Additionally, the image pixel array should be loaded into memory.
+- **Note**: If the input image is not a `.bmp`, print an error message.
+
+### Q2. Write BMP Image
+
+- **Input**: Filename of the output image, BMP header structure, and image pixel array (read using the previous function).
+- **Output**: Write the loaded pixel array to disk as an image in `.bmp` file format.
+
+### Q3. Color Channel Manipulation
+
+- **Input**: Read the file `corn.bmp` using your previous BMP reading function.
+- **Output**: Set each color channel of `corn.bmp` to zero one at a time (e.g., set the `R` channel to zero while keeping other channels' intensity values unchanged). Save the modified image as a `.bmp` file using your BMP writing function.
+
+**Note**: Ensure that all functions support 24-bit RGB and 8-bit grayscale image formats.
+
 #READ
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg

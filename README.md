@@ -51,10 +51,26 @@ with–
 a) Input: Image pixel array
 b) Output: 45-degree and 90-degree rotation of both colour and grayscale
 images and perform interpolation(using nearest neighbour and bilinear)
-- **[Experiment 3](experiments/EXP-02)**: Description and details of Experiment 3.
-- **[Experiment 4](experiments/EXP-02)**: Description and details of Experiment 4.
-- **[Experiment 5](experiments/EXP-02)**: Description and details of Experiment 5.
-- **[Experiment 6](experiments/EXP-02)**: Description and details of Experiment 6.
+
+- **[Experiment 3](experiments/EXP-03)**: FREQUENCY DOMAIN TRANSFORMATION. Q1. Write your own function for computing Fast Fourier Transform (FFT) and
+inverse FFT of an Image with any random spatial dimension
+Input: An Image
+Output: Visualization of Magnitude and phase spectrum of that image
+Q2. Read the image dip.tiff, and perform the following operation on the image.
+1. Multiply the image by (−1)𝑥+𝑦
+2. Compute the FFT
+3. Compute the Complex Conjugate of resultant FFT.
+4. Compute Inverse FFT (iFFT) of the Complex Conjugate. (Which you
+got in step 3.)
+5. Multiply the real part of the result by (−1)𝑥+𝑦
+Use the FFT and inverse FFT functions (Your own function) of Q1 for this
+experiment
+Output: Show the resultant image. Explain the rationality behind
+the output.
+
+- **[Experiment 4](experiments/EXP-04)**: SPATIAL FILTERING
+- **[Experiment 5](experiments/EXP-05)**: 
+- **[Experiment 6](experiments/EXP-06)**: Description and details of Experiment 6.
 
 ## Getting Started
 

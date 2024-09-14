@@ -16,7 +16,7 @@ Each experiment is organized into its own directory and includes detailed docume
 
 ## Experiments Overview
 
-- **[Experiment 1](./experiment1/README.md)**: Description and details of Experiment 1.
+- **[Experiment 1](experiments/Exp-01)**: Description and details of Experiment 1.
 - **[Experiment 2](./experiment2/README.md)**: Description and details of Experiment 2.
 - **[Experiment 3](./experiment3/README.md)**: Description and details of Experiment 3.
 - **[Experiment 4](./experiment4/README.md)**: Description and details of Experiment 4.

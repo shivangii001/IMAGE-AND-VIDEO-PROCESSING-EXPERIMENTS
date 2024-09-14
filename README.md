@@ -16,27 +16,7 @@ Each experiment is organized into its own directory and includes detailed docume
 
 ## Experiments Overview
 
-- **[Experiment 1](experiments/Exp-01)**:
-All functions must support 24-bit RGB and 8-bit grayscale image
-formats.
-Q1. Read .bmp Image:
-a) Input: Filename of input image
-b) Output: BMP header structure printing height, width, bit width, file size in
-bytes, and offset size, image pixel array loaded onto memory.
-Note: If the input image is not a .bmp, then it should print an error message.
-Q2. Write .bmp Image:
-a) Input: Filename of output image, BMP header structure, and Image pixel array
-(read using previous function).
-b) Output: Write the loaded pixel array in to the disk as an image in .bmp file
-format.
-
-Q3. Color Channel Manipulation:
-a) Input: Read the file ‘corn.bmp’ using your previous ReadBMP function.
-b) Output: Set each channel of the ‘corn.bmp’ to zero at an instance (e.g., set the
-‘R’ channel to zero and without changing the intensity values of other
-channels, repeat it for ‘G’ and ‘B’ channel) and save the .bmp file with modified
-pixel data using WriteBMP function..
-
+- **[Experiment 1](experiments/Exp-01)**: (BMP IMAGE)READ, WRITE AND CHANNEL MANIPULATION.
 - **[Experiment 2](experiments/EXP-02)**:
 All functions must support 24-bit RGB and 8-bit grayscale image
 formats.

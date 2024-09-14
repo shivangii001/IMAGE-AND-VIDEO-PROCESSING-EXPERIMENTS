@@ -19,7 +19,7 @@ Each experiment is organized into its own directory and includes detailed docume
 - **[Experiment 1](experiments/Exp-01)**: (BMP IMAGE)READ, WRITE AND CHANNEL MANIPULATION.
 - **[Experiment 2](experiments/EXP-02)**: SCALING AND ROTATION.
 - **[Experiment 3](experiments/EXP-03)**: FREQUENCY DOMAIN TRANSFORMATION. 
-- **[Experiment 4](experiments/EXP-04)**: SPATIAL FILTERING
+- **[Experiment 4](experiments/EXP-04)**: SPATIAL FILTERING.
 - **[Experiment 5](experiments/EXP-05)**: FREQUENCY DOMAIN FILTERING.
 - **[Experiment 6](experiments/EXP-06)**: MORPHOLOGICAL OPERATIONS.
 

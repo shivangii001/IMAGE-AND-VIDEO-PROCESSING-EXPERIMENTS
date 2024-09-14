@@ -17,20 +17,7 @@ Each experiment is organized into its own directory and includes detailed docume
 ## Experiments Overview
 
 - **[Experiment 1](experiments/Exp-01)**: (BMP IMAGE)READ, WRITE AND CHANNEL MANIPULATION.
-- **[Experiment 2](experiments/EXP-02)**:
-All functions must support 24-bit RGB and 8-bit grayscale image
-formats.
-1. Operations on the Image:
-a) Input: Image pixel array
-b) Output: Scale the images with different scale factors along with x and y axis
-with–
-1. Scaling factor greater than 1
-2. Scaling factor less than 1
-
-2 .Operation on the image
-a) Input: Image pixel array
-b) Output: 45-degree and 90-degree rotation of both colour and grayscale
-images and perform interpolation(using nearest neighbour and bilinear)
+- **[Experiment 2](experiments/EXP-02)**: SCALING AND ROTATION.
 
 - **[Experiment 3](experiments/EXP-03)**: FREQUENCY DOMAIN TRANSFORMATION. Q1. Write your own function for computing Fast Fourier Transform (FFT) and
 inverse FFT of an Image with any random spatial dimension

@@ -18,26 +18,10 @@ Each experiment is organized into its own directory and includes detailed docume
 
 - **[Experiment 1](experiments/Exp-01)**: (BMP IMAGE)READ, WRITE AND CHANNEL MANIPULATION.
 - **[Experiment 2](experiments/EXP-02)**: SCALING AND ROTATION.
-
-- **[Experiment 3](experiments/EXP-03)**: FREQUENCY DOMAIN TRANSFORMATION. Q1. Write your own function for computing Fast Fourier Transform (FFT) and
-inverse FFT of an Image with any random spatial dimension
-Input: An Image
-Output: Visualization of Magnitude and phase spectrum of that image
-Q2. Read the image dip.tiff, and perform the following operation on the image.
-1. Multiply the image by (−1)𝑥+𝑦
-2. Compute the FFT
-3. Compute the Complex Conjugate of resultant FFT.
-4. Compute Inverse FFT (iFFT) of the Complex Conjugate. (Which you
-got in step 3.)
-5. Multiply the real part of the result by (−1)𝑥+𝑦
-Use the FFT and inverse FFT functions (Your own function) of Q1 for this
-experiment
-Output: Show the resultant image. Explain the rationality behind
-the output.
-
+- **[Experiment 3](experiments/EXP-03)**: FREQUENCY DOMAIN TRANSFORMATION. 
 - **[Experiment 4](experiments/EXP-04)**: SPATIAL FILTERING
-- **[Experiment 5](experiments/EXP-05)**: 
-- **[Experiment 6](experiments/EXP-06)**: Description and details of Experiment 6.
+- **[Experiment 5](experiments/EXP-05)**: FREQUENCY DOMAIN FILTERING.
+- **[Experiment 6](experiments/EXP-06)**: MORPHOLOGICAL OPERATIONS.
 
 ## Getting Started
 

@@ -1,3 +1,24 @@
+# Image Operations
+
+## Problem Statement
+
+### 1. Scaling Operations
+
+- **Input**: Image pixel array.
+- **Output**: Scale the images with different scale factors along both the x and y axes. Specifically:
+  - **Scaling factor greater than 1**: Increase the size of the image.
+  - **Scaling factor less than 1**: Decrease the size of the image.
+- **Note**: Ensure support for both 24-bit RGB and 8-bit grayscale image formats.
+
+### 2. Rotation Operations
+
+- **Input**: Image pixel array.
+- **Output**: Perform rotations of both color and grayscale images by:
+  - **45 degrees**
+  - **90 degrees**
+  - Use both **nearest neighbor** and **bilinear interpolation** methods for rotation.
+- **Note**: Ensure support for both 24-bit RGB and 8-bit grayscale image formats.
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
